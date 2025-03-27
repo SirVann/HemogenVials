@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+		<Operation Class="PatchOperationSequence">
+			<operations>
+		
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="HemogenPack"]/label</xpath>
+                  <value>		
+                     <label>hemogen vial</label>
+                  </value>
+				</li>
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="HemogenPack"]/description</xpath>
+                  <value>		
+                     <description>Refined hemogen in a specialized glass vial that prevents spoilage. Hemogenic humans can consume it to restore their internal hemogen stores. It can be administered via an operation to reverse blood loss.</description>
+                  </value>
+				</li>
+				
+			</operations>
+    </Operation>
+</Patch>

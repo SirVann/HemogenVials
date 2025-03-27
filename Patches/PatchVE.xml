@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Races Expanded - Sanguophage</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Animal"]/label</xpath>
+                  <value>		
+                     <label>hemogen vial (animal)</label>
+                  </value>
+				</li>
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Animal"]/description</xpath>
+                  <value>		
+                     <description>Refined animal hemogen in a specialized glass vial that prevents spoilage. Increases regeneration and combat capabilities of the user, but greatly decreases the capability to communicate with others.</description>
+                  </value>
+				</li>
+				
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/label</xpath>
+                  <value>		
+                     <label>hemogen vial (corpse)</label>
+                  </value>
+				</li>
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Corpse"]/description</xpath>
+                  <value>		
+                     <description>Tainted, rotting hemogen from a corpse in a specialized glass vial that prevents spoilage. Greatly weakens the carrier of this hemogen type, but increases the blood filtration significantly.</description>
+                  </value>
+				</li>
+				
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Sanguophage"]/label</xpath>
+                  <value>		
+                     <label>hemogen vial (sanguophage)</label>
+                  </value>
+				</li>
+		       <li Class="PatchOperationReplace">
+			      <xpath>Defs/ThingDef[defName="VRE_HemogenPack_Sanguophage"]/description</xpath>
+                  <value>		
+                     <description>Pure, thick hemogen from another bloodfeeder in a specialized glass vial that prevents spoilage. The most rare of all hemogens, it gives the carrier a powerful boost to all capacities.</description>
+                  </value>
+				</li>
+				
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
